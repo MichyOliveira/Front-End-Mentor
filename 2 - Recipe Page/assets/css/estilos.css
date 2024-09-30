@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+img{
+    width: 100%;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+}
+.principal{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 30px -10px black;
+    border-radius: 20px;
+    padding: 50px;
+}
+/*Titulos e fontes*/
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+h3{
+    margin-top: 0px;
+    color: hsl(332, 51%, 32%);
+}
+
+/*Section 1*/
+.section1 p{
+    text-align: justify;
+}
+.preparo{
+    margin: 0px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px 0px 5px 15px;
+    border-radius: 20px;
+}
+.preparo ul li{
+    margin-bottom: 20px;
+}
+
+/*Section 2*/
+.section2 ul li{
+    margin-bottom: 20px;
+}
+
+/*Section 3*/
+.section3 ol li{
+    margin-bottom: 10px;
+}
+
+/*Section 4*/
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px; /* Adiciona espaçamento entre as células */
+}
+.valor {
+    align-items: end;
+    text-align: left;
+}
+td {
+    padding: 10px; /* Adiciona espaçamento interno em cada célula */
+    border-bottom: 1px solid #ddd; /* Opcional: borda para visualização clara */
+}
+
+footer{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 480px){
+    .principal{
+        margin: 0px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 15px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    img {
+        width: 100%;
+        display: flex;
+        position: relative;
+        border-radius: 10px;
+    }
+    table{
+        text-align: center;
+    }
+    .valor{
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        background-color: hsl(0, 0%, 100%);
+        font-size: small;
+    }
+}
